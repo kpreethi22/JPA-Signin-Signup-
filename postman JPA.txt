@@ -1,0 +1,30 @@
+localhost:8080/api/auth/signup postmethod
+json object
+
+{
+"name":"vikas",
+"username":"vikas",
+"email":"vikas@gmail.com",
+"password": "sakiv"
+}
+
+localhost:8080/api/auth/signin
+
+json object
+
+{
+
+"usernameOrEmail":"vikas",
+
+"password": "sakiv"
+}
+
+
+if authorized to post with this credentials then post using
+localhost:8080/api/posts postmethod
+json object
+{
+  "title": "Ocygfhean",
+  "description": "gfcvbnBlue",
+  "content": "Vastgfvb"
+}
